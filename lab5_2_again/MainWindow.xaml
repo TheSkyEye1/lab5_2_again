@@ -1,0 +1,16 @@
+﻿<Window x:Class="lab5_2_again.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab5_2_again"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas x:Name="scene" HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="600" Background="#FFDDE8C9"/>
+        <Button Content="SAVE THE PLANET" HorizontalAlignment="Left" Height="45" Margin="620,10,0,0" VerticalAlignment="Top" Width="170" Click="Button_Click"/>
+        <Label x:Name="fitLB" Content="Best Fit:" HorizontalAlignment="Left" Margin="620,65,0,0" VerticalAlignment="Top" Width="170"/>
+        <Label x:Name="iterLB" Content="Iteration:" HorizontalAlignment="Left" Margin="620,100,0,0" VerticalAlignment="Top" Width="170"/>
+
+    </Grid>
+</Window>
